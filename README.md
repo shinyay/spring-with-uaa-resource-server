@@ -15,6 +15,16 @@ Overview
 
 ## Requirement
 
+### OAuth2 ResourceServer Configuration
+```
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/uaa/oauth/token
+```
+
 ## Usage
 ### Run Resource Server
 ```
